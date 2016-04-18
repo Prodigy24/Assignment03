@@ -56,7 +56,7 @@ public class A3Q6 {
     new Wall(Kitchener, 4, 5, Direction.EAST);
     new Wall(Kitchener, 5, 5, Direction.EAST);
     
-    for(int y = 0;y < 4; y = y + 1){
+    for(int y = 0;y < 12000000; y = y + 1){
         for(int x = 0;x < 4; x = x + 1){
         defaultsteve.move();
         defaultsteve.move();
